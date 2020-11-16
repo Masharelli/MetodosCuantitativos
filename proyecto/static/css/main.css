@@ -13,6 +13,24 @@
     margin-top: 45px;
 }
 
+.column-3 {
+    float: left;
+    width: 15%;
+    margin-top: 90px;
+}
+
+.column-4 {
+    float: left;
+    width: 15%;
+    margin-top: 125px;
+}
+
+.column-5 {
+    float: left;
+    width: 15%;
+    margin-top: 70px;
+}
+
 
 /* Clear floats after the columns */
 
