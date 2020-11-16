@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 15%;
+}
+
+.column-2 {
+    float: left;
+    width: 15%;
+    margin-top: 45px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
