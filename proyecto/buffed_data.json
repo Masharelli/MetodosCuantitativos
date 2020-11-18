@@ -1,0 +1,530 @@
+{
+    "Damwon": {
+        "winrate": 68.4,
+        "region": "LCK",
+        "firstblood": 53.2,
+        "firsttower": 68.59,
+        "dragonpg": 54.72,
+        "heraldpg": 60.42,
+        "nashorpg": 58.62,
+        "goldpm": 1852,
+        "towerratio": 3.89,
+        "members": {
+            "Nuguri": {
+                "position": "top",
+                "killparticipation": 56.14
+            },
+            "Canyon": {
+                "position": "jg",
+                "killparticipation": 64.22
+            },
+            "Showmaker": {
+                "position": "mid",
+                "killparticipation": 65.45
+            },
+            "Ghost": {
+                "position": "adc",
+                "killparticipation": 62.41
+            },
+            "Beryl": {
+                "position": "supp",
+                "killparticipation": 61.08
+            }
+        }
+    },
+    "Gen G": {
+        "winrate": 50.35,
+        "region": "LCK",
+        "firstblood": 57.66,
+        "firsttower": 60.8,
+        "dragonpg": 53.58,
+        "heraldpg": 41.89,
+        "nashorpg": 48.64,
+        "goldpm": 1750,
+        "towerratio": 2.85,
+        "members": {
+            "Rascal": {
+                "position": "top",
+                "killparticipation": 57.38
+            },
+            "Clid": {
+                "position": "jg",
+                "killparticipation": 62.32
+            },
+            "Bdd": {
+                "position": "mid",
+                "killparticipation": 61.37
+            },
+            "Ruler": {
+                "position": "adc",
+                "killparticipation": 61.08
+            },
+            "Life": {
+                "position": "supp",
+                "killparticipation": 56.43
+            }
+        }
+    },
+    "DragonX": {
+        "winrate": 52.25,
+        "region": "LCK",
+        "firstblood": 38.71,
+        "firsttower": 39.62,
+        "dragonpg": 46.71,
+        "heraldpg": 41.13,
+        "nashorpg": 48.92,
+        "goldpm": 1803,
+        "towerratio": 2.75,
+        "members": {
+            "Doran": {
+                "position": "top",
+                "killparticipation": 58.33
+            },
+            "Pyosik": {
+                "position": "jg",
+                "killparticipation": 64.31
+            },
+            "Chovy": {
+                "position": "mid",
+                "killparticipation": 63.08
+            },
+            "Deft": {
+                "position": "adc",
+                "killparticipation": 62.89
+            },
+            "Keria": {
+                "position": "supp",
+                "killparticipation": 60.61
+            }
+        }
+    },
+    "Top Esports": {
+        "winrate": 68,
+        "region": "LPL",
+        "firstblood": 43.5,
+        "firsttower": 50.5,
+        "dragonpg": 55.65,
+        "heraldpg": 59.1,
+        "nashorpg": 63.87,
+        "goldpm": 1842.5,
+        "towerratio": 2.32,
+        "members": {
+            "369": {
+                "position": "top",
+                "killparticipation": 56.2
+            },
+            "Karsa": {
+                "position": "jg",
+                "killparticipation": 63.07
+            },
+            "Knight": {
+                "position": "mid",
+                "killparticipation": 73.35
+            },
+            "JackeyLove": {
+                "position": "adc",
+                "killparticipation": 69.15
+            },
+            "yuyanjia": {
+                "position": "supp",
+                "killparticipation": 64.42
+            }
+        }
+    },
+    "Suning Gaming": {
+        "winrate": 55.3,
+        "region": "LPL",
+        "firstblood": 35,
+        "firsttower": 61,
+        "dragonpg": 49.6,
+        "heraldpg": 63.9,
+        "nashorpg": 61.83,
+        "goldpm": 1780,
+        "towerratio": 2.5,
+        "members": {
+            "Bin": {
+                "position": "top",
+                "killparticipation": 57
+            },
+            "SofM": {
+                "position": "jg",
+                "killparticipation": 69.4
+            },
+            "Angel": {
+                "position": "mid",
+                "killparticipation": 78.3
+            },
+            "huanfeng": {
+                "position": "adc",
+                "killparticipation": 68
+            },
+            "SwordArt": {
+                "position": "supp",
+                "killparticipation": 65.8
+            }
+        }
+    },
+    "JD Gaming": {
+        "winrate": 68.75,
+        "region": "LPL",
+        "firstblood": 62,
+        "firsttower": 54,
+        "dragonpg": 53.72,
+        "heraldpg": 42.45,
+        "nashorpg": 63.5,
+        "goldpm": 1836,
+        "towerratio": 2.85,
+        "members": {
+            "Zoom": {
+                "position": "top",
+                "killparticipation": 61.45
+            },
+            "Kanavi": {
+                "position": "jg",
+                "killparticipation": 70.15
+            },
+            "Yagao": {
+                "position": "mid",
+                "killparticipation": 77.85
+            },
+            "LokeN": {
+                "position": "adc",
+                "killparticipation": 71.95
+            },
+            "LvMao": {
+                "position": "supp",
+                "killparticipation": 65.4
+            }
+        }
+    },
+    "Fnatic": {
+        "winrate": 58.02,
+        "region": "LEC",
+        "firstblood": 47.53,
+        "firsttower": 48.02,
+        "dragonpg": 55.47,
+        "heraldpg": 40.28,
+        "nashorpg": 53.61,
+        "goldpm": 1833,
+        "towerratio": 2.55,
+        "members": {
+            "Bwipo": {
+                "position": "top",
+                "killparticipation": 61.15
+            },
+            "Selfmade": {
+                "position": "jg",
+                "killparticipation": 68.01
+            },
+            "Nemesis": {
+                "position": "mid",
+                "killparticipation": 54.78
+            },
+            "Rekkles": {
+                "position": "adc",
+                "killparticipation": 70.27
+            },
+            "Hylissang": {
+                "position": "supp",
+                "killparticipation": 62.03
+            }
+        }
+    },
+    "G2 Esports": {
+        "winrate": 68.11,
+        "region": "LEC",
+        "firstblood": 56.35,
+        "firsttower": 45.08,
+        "dragonpg": 57.13,
+        "heraldpg": 50.76,
+        "nashorpg": 57.43,
+        "goldpm": 1841,
+        "towerratio": 2.94,
+        "members": {
+            "Wunder": {
+                "position": "top",
+                "killparticipation": 55.47
+            },
+            "Jankos": {
+                "position": "jg",
+                "killparticipation": 66.84
+            },
+            "Caps": {
+                "position": "mid",
+                "killparticipation": 64.68
+            },
+            "Perkz": {
+                "position": "adc",
+                "killparticipation": 60.27
+            },
+            "Mikyx": {
+                "position": "supp",
+                "killparticipation": 65.66
+            }
+        }
+    },
+    "Team Liquid": {
+        "winrate": 52.79,
+        "region": "LCS",
+        "firstblood": 36.0,
+        "firsttower": 53.1,
+        "dragonpg": 42.17,
+        "heraldpg": 45.12,
+        "nashorpg": 57.9,
+        "goldpm": 1756,
+        "towerratio": 2.82,
+        "members": {
+            "Impact": {
+                "position": "top",
+                "killparticipation": 55.8
+            },
+            "Broxah": {
+                "position": "jg",
+                "killparticipation": 63.63
+            },
+            "Jensen": {
+                "position": "mid",
+                "killparticipation": 63.86
+            },
+            "Tactical": {
+                "position": "adc",
+                "killparticipation": 67.44
+            },
+            "CoreJJ": {
+                "position": "supp",
+                "killparticipation": 64.49
+            }
+        }
+    },
+    "PSG Talon": {
+        "winrate": 56.52,
+        "region": "PCS",
+        "firstblood": 38.04,
+        "firsttower": 38.67,
+        "dragonpg": 48.25,
+        "heraldpg": 42.92,
+        "nashorpg": 60.15,
+        "goldpm": 1780,
+        "towerratio": 2.35,
+        "members": {
+            "Hanabi": {
+                "position": "top",
+                "killparticipation": 48.66
+            },
+            "River": {
+                "position": "jg",
+                "killparticipation": 64.47
+            },
+            "Tank": {
+                "position": "mid",
+                "killparticipation": 59.54
+            },
+            "Unified": {
+                "position": "adc",
+                "killparticipation": 62.22
+            },
+            "Kaiwing": {
+                "position": "supp",
+                "killparticipation": 64.23
+            }
+        }
+    },
+    "LGD Gaming": {
+        "winrate": 48,
+        "region": "LPL",
+        "firstblood": 44,
+        "firsttower": 38,
+        "dragonpg": 51.36,
+        "heraldpg": 33,
+        "nashorpg": 50.63,
+        "goldpm": 1769,
+        "towerratio": 2.36,
+        "members": {
+            "Langx": {
+                "position": "top",
+                "killparticipation": 60.6
+            },
+            "Peanut": {
+                "position": "jg",
+                "killparticipation": 73.86
+            },
+            "xiye": {
+                "position": "mid",
+                "killparticipation": 71.95
+            },
+            "Kramer": {
+                "position": "adc",
+                "killparticipation": 71.2
+            },
+            "Mark": {
+                "position": "supp",
+                "killparticipation": 67
+            }
+        }
+    },
+    "FlyQuest": {
+        "winrate": 51.98,
+        "region": "LCS",
+        "firstblood": 54.0,
+        "firsttower": 38.48,
+        "dragonpg": 47.79,
+        "heraldpg": 40.2,
+        "nashorpg": 55.03,
+        "goldpm": 1749,
+        "towerratio": 2.45,
+        "members": {
+            "solo": {
+                "position": "top",
+                "killparticipation": 56.16
+            },
+            "Santorin": {
+                "position": "jg",
+                "killparticipation": 68.96
+            },
+            "PowerOfEvil": {
+                "position": "mid",
+                "killparticipation": 63.87
+            },
+            "WildTurtle": {
+                "position": "adc",
+                "killparticipation": 59.85
+            },
+            "IgNar": {
+                "position": "supp",
+                "killparticipation": 60.32
+            }
+        }
+    },
+    "Machi Esports": {
+        "winrate": 61.41,
+        "region": "PCS",
+        "firstblood": 47.6,
+        "firsttower": 54.82,
+        "dragonpg": 52.46,
+        "heraldpg": 43.9,
+        "nashorpg": 56.7,
+        "goldpm": 1788,
+        "towerratio": 3.67,
+        "members": {
+            "PK": {
+                "position": "top",
+                "killparticipation": 56.67
+            },
+            "Gemini": {
+                "position": "jg",
+                "killparticipation": 59.2
+            },
+            "Mission": {
+                "position": "mid",
+                "killparticipation": 56.71
+            },
+            "Bruce": {
+                "position": "adc",
+                "killparticipation": 58.54
+            },
+            "Koala": {
+                "position": "supp",
+                "killparticipation": 55.63
+            }
+        }
+    },
+    "Rogue": {
+        "winrate": 53.16,
+        "region": "LEC",
+        "firstblood": 51.7,
+        "firsttower": 73.75,
+        "dragonpg": 45.44,
+        "heraldpg": 54.14,
+        "nashorpg": 55.24,
+        "goldpm": 1743,
+        "towerratio": 2.35,
+        "members": {
+            "Finn": {
+                "position": "top",
+                "killparticipation": 58.11
+            },
+            "Inspired": {
+                "position": "jg",
+                "killparticipation": 69.63
+            },
+            "Larssen": {
+                "position": "mid",
+                "killparticipation": 61.37
+            },
+            "Hans sama": {
+                "position": "adc",
+                "killparticipation": 60.34
+            },
+            "Vander": {
+                "position": "supp",
+                "killparticipation": 55.63
+            }
+        }
+    },
+    "TSM": {
+        "winrate": 51.08,
+        "region": "LCS",
+        "firstblood": 55.12,
+        "firsttower": 51.98,
+        "dragonpg": 46.68,
+        "heraldpg": 45.32,
+        "nashorpg": 45.42,
+        "goldpm": 1746,
+        "towerratio": 2.29,
+        "members": {
+            "Broken Blade": {
+                "position": "top",
+                "killparticipation": 56.79
+            },
+            "Spica": {
+                "position": "jg",
+                "killparticipation": 65.07
+            },
+            "Bjergsen": {
+                "position": "mid",
+                "killparticipation": 62.14
+            },
+            "Doublelift": {
+                "position": "adc",
+                "killparticipation": 60.61
+            },
+            "Biofrost": {
+                "position": "supp",
+                "killparticipation": 56.61
+            }
+        }
+    },
+    "Unicorns of Love": {
+        "winrate": 51.29,
+        "region": "LCL",
+        "firstblood": 32.73,
+        "firsttower": 42.9,
+        "dragonpg": 37.68,
+        "heraldpg": 38.9,
+        "nashorpg": 46.93,
+        "goldpm": 1945,
+        "towerratio": 2.9,
+        "members": {
+            "BOSS": {
+                "position": "top",
+                "killparticipation": 27.72
+            },
+            "AHaHaCiK": {
+                "position": "jg",
+                "killparticipation": 36.58
+            },
+            "Nomanz": {
+                "position": "mid",
+                "killparticipation": 38.29
+            },
+            "Gadget": {
+                "position": "adc",
+                "killparticipation": 36.01
+            },
+            "SaNTaS": {
+                "position": "supp",
+                "killparticipation": 35.68
+            }
+        }
+    }
+}

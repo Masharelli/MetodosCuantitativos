@@ -12,38 +12,42 @@
     <h1>Resultados de la prediccion</h1>
 
     <div class="row">
+        <h5>Cuartos de Final</h5>
         <div class="column">
-            <p>{{ team1 }}</p>
-            <p>{{ team2}}</p>
-            <p>{{ team3 }}</p>
-            <p>{{ team4 }}</p>
-            <p>{{ team5 }}</p>
-            <p>{{ team6 }}</p>
-            <p>{{ team7 }}</p>
-            <p>{{ team8 }}</p>
+            <p>{{ tournament["serie1"]["teamA"] }} - {{ tournament["serie1"]["teamA_score"] }}</p>
+            <p>{{ tournament["serie1"]["teamB"]}} - {{ tournament["serie1"]["teamB_score"] }}</p>
+            <br>
+            <p>{{ tournament["serie2"]["teamA"] }} - {{ tournament["serie2"]["teamA_score"] }}</p>
+            <p>{{ tournament["serie2"]["teamB"] }} - {{ tournament["serie2"]["teamB_score"] }}</p>
+            <br>
+            <p>{{ tournament["serie3"]["teamA"] }} - {{ tournament["serie3"]["teamA_score"] }}</p>
+            <p>{{ tournament["serie3"]["teamB"] }} - {{ tournament["serie3"]["teamB_score"] }}</p>
+            <br>
+            <p>{{ tournament["serie4"]["teamA"] }} - {{ tournament["serie4"]["teamA_score"] }}</p>
+            <p>{{ tournament["serie4"]["teamB"] }} - {{ tournament["serie4"]["teamB_score"] }}</p>
         </div>
 
         
         <h5>SemiFinales</h5>
         <div class="column-2" style="margin-top: 10px;">
-            <p>{{ team1 }}</p>
-            <p>{{ team3 }}</p>
+            <p>{{ tournament["serie5"]["teamA"] }} - {{ tournament["serie5"]["teamA_score"] }}</p>
+            <p>{{ tournament["serie5"]["teamB"] }} - {{ tournament["serie5"]["teamB_score"] }}</p>
 
         <div class="column-2" style="margin-top: 35px;">
-            <p>{{ team5 }}</p>
-            <p>{{ team7 }}</p>
+            <p>{{ tournament["serie6"]["teamA"] }} - {{ tournament["serie6"]["teamA_score"] }}</p>
+            <p>{{ tournament["serie6"]["teamB"] }} - {{ tournament["serie6"]["teamB_score"] }}</p>
         </div>
         </div>
 
         <h5>Final</h5>
         <div class="column-3" style="margin-top: 35px;">
-            <p>{{ team7 }}</p>
-            <p>{{ team3 }}</p>
+            <p>{{ tournament["serie7"]["teamA"] }} - {{ tournament["serie7"]["teamA_score"] }}</p>
+            <p>{{ tournament["serie7"]["teamB"] }} - {{ tournament["serie7"]["teamB_score"] }}</p>
         </div>
 
         <h5>Campeon</h5>
         <div class="column-4" style="margin-top: 10px;">
-            <p>{{ team7 }}</p>
+            <p>{{ tournament["serie7"]["winner"] }}</p>
         </div>
         
     </div>
