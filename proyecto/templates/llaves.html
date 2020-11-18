@@ -12,7 +12,7 @@
 
     <div class="row">
         <ul>
-            <button>Simular</button>
+            <button onclick="">Simular</button>
             <button><a href="/en-vivo">En Vivo</a></button>
 
         </ul>
@@ -26,92 +26,76 @@
     </h2>
     <br/>
 
-    <div class="row">
-        <div class="column">
-            <select name="teams">
-                    <option value="Top">Top Esports</option>
+    <div class="row">   
+        <form class="form-inline" method="POST" action="{{ url_for('resultado') }}">
+            <div class="column">
+                <select name="team1">
+                    {% for o in data %}
+                       <option value="{{ o.team }}">{{ o.team }}</option>
+                    {% endfor %}
                 </select>
-            <br/>
-            <select name="teams">
-                    <option value="Fnatic">Fnatic</option>
-                </select>
-            <br/>
-            <br/>
-            <select name="teams">
-                    <option value="Sunning">Sunning</option>
-                </select>
-            <br/>
-            <select name="teams">
-                    <option value="Jd">JD Gaming</option>
-                </select>
-            <br/>
-            <br/>
-            <select name="teams">
-                    <option value="GenG">Geng G</option>
-                </select>
-            <br/>
-            <select name="teams">
-                    <option value="G2">G2 Esports</option>
-                </select>
-            <br/>
-            <br/>
-            <select name="teams">
-                    <option value="Dawmon">Dawmon Gaming</option>
-                </select>
-            <br/>
-            <select name="teams">
-                    <option value="Drx">DRX</option>
-            </select>
-        </div>
 
-        <div class="column-2">
-            <select name="teams">
-                <option value="Top">Top Esports</option>
-                <option value="Fnatic">Fnatic</option>
-            </select>
-            <br/>
-            <select name="teams">
-                <option value="Sunning">Sunning</option>
-                <option value="Jd">Jd Gaming</option>
-            </select>
+                <select name="team2">
+                    {% for o in data %}
+                       <option value="{{ o.team }}">{{ o.team }}</option>
+                    {% endfor %}
+                    <br/>
+                </select>
 
-            <br/>
-
-            <div class="column-3">
-                <select name="teams">
-                    <option value="GenG">Gen G</option>
-                    <option value="G2">G2 Esport</option>
+               <br> <br/>
+                <div >
+                    
+                    <select name="team3">
+                        {% for o in data %}
+                           <option value="{{ o.team }}">{{ o.team }}</option>
+                        {% endfor %}
                     </select>
-                <br/>
-                <select name="teams">
-                    <option value="Dawmon">Dawmon Gaming</option>
-                    <option value="Drx">DRX</option>
-                </select>
+                    <select name="team4">
+                        {% for o in data %}
+                           <option value="{{ o.team }}">{{ o.team }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <br> <br/>
+                <div >
+                    
+                    <select name="team5">
+                        {% for o in data %}
+                           <option value="{{ o.team }}">{{ o.team }}</option>
+                        {% endfor %}
+                    </select>
+                    <select name="team6">
+                        {% for o in data %}
+                           <option value="{{ o.team }}">{{ o.team }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <br> <br/>
+                <div >
+                    
+                    <select name="team7">
+                        {% for o in data %}
+                           <option value="{{ o.team }}">{{ o.team }}</option>
+                        {% endfor %}
+                    </select>
+                    <select name="team8">
+                        {% for o in data %}
+                           <option value="{{ o.team }}">{{ o.team }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                
+
+
+                    <button type="submit" class="btn btn-default">Enviar equipos</button>
+                <br/>  
             </div>
+            
 
-        </div>
-
-        <div class="column-4">
-            <select name="teams">
-                <option value="Sunning">Sunning</option>
-                <option value="Top">Top Esports</option>
-                </select>
-            <br/>
-            <select name="teams">
-                <option value="G2">G2 Esports</option>
-                <option value="Dawmon Gaming">Dawmon Gaming</option>
-            </select>
-        </div>
-
-        <div class="column-5">
-            <h3>Campeon</h3>
-            <select name="teams">
-                <option value="Sunning">Sunning</option>
-                <option value="Dawmon">Dawmon Gaming</option>
-                </select>
-            <br/>
-        </div>
-    </div>
+        </form>
 
 
     </div>

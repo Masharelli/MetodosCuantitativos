@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de la simulacion</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+
+<body>
+    <h1>Resultados de la prediccion</h1>
+
+    <div class="row">
+        <div class="column">
+            <p>{{ team1 }}</p>
+            <p>{{ team2}}</p>
+            <p>{{ team3 }}</p>
+            <p>{{ team4 }}</p>
+            <p>{{ team5 }}</p>
+            <p>{{ team6 }}</p>
+            <p>{{ team7 }}</p>
+            <p>{{ team8 }}</p>
+        </div>
+
+        
+        <h5>SemiFinales</h5>
+        <div class="column-2" style="margin-top: 10px;">
+            <p>{{ team1 }}</p>
+            <p>{{ team3 }}</p>
+
+        <div class="column-2" style="margin-top: 35px;">
+            <p>{{ team5 }}</p>
+            <p>{{ team7 }}</p>
+        </div>
+        </div>
+
+        <h5>Final</h5>
+        <div class="column-3" style="margin-top: 35px;">
+            <p>{{ team7 }}</p>
+            <p>{{ team3 }}</p>
+        </div>
+
+        <h5>Campeon</h5>
+        <div class="column-4" style="margin-top: 10px;">
+            <p>{{ team7 }}</p>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>

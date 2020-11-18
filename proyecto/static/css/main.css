@@ -10,7 +10,11 @@
 .column-2 {
     float: left;
     width: 15%;
-    margin-top: 45px;
+    margin-top: -5px;
+}
+
+.p1{
+    float: left;
 }
 
 .column-3 {
