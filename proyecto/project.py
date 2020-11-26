@@ -11,7 +11,7 @@ PATH = FILE_NAME
 #Set the data with buffs and debuffs according
 #to the region of the team
 def settingBuffs(data):
-    buffs={"LPL":1,"LEC":0.98,"LCK":0.95,"LCS":0.90,"PCS":0.85,"LCL":0.55}
+    buffs={"LPL":1,"LEC":0.95,"LCK":0.95,"LCS":0.90,"PCS":0.85,"LCL":0.55}
     buffed_data=data
     for team in data:
         mult = buffs[data[team]["region"]]
@@ -49,6 +49,52 @@ def markov(teamA_ptge, teamB_ptge):
     w=[teamA_ptge,teamB_ptge]
     return rnd.choices([1,2],weights=tuple(w), k=1)[0]
 
+#Testing the model
+def testMatch(teamA,teamB,data):
+    value_ingame={
+        "winrate": 25,
+        "firstblood": 15,
+        "firsttower": 7,
+        "1dragon": 3,
+        "2dragon": 5,
+        "3dragon": 10,
+        "4dragon": 20,
+        "elderdragon": 25,
+        "heraldpg": 7,
+        "nashorpg": 22,
+        "top": 3,
+        "jg": 5,
+        "mid": 4,
+        "adc": 4,
+        "supp": 3
+    }
+
+    teamA_cont=0
+    teamB_cont=0
+
+    #winrate
+    add = data[teamA["name"]]["winrate"]+data[teamB["name"]]["winrate"]
+    teamA_cont+=(data[teamA["name"]]["winrate"]/add)*value_ingame["winrate"]
+    teamB_cont+=(data[teamB["name"]]["winrate"]/add)*value_ingame["winrate"]
+
+    for stat in value_ingame:
+        if stat!="winrate":
+            if teamA[stat]==True:
+                teamA_cont+=value_ingame[stat]
+            elif teamB[stat]==True:
+                teamB_cont+=value_ingame[stat]
+    
+    sum_results=teamA_cont+teamB_cont
+    teamA_ptge=teamA_cont/sum_results
+    teamB_ptge=teamB_cont/sum_results
+    if markov(teamA_ptge,teamB_ptge)==1:
+        winner=teamA["name"]
+    else:
+        winner=teamB["name"]
+
+    print("Testing: \n"+winner+" "+str(teamA_ptge)+" " +str(teamB_ptge))
+
+
 #Simulates a match between 2 teams, considering all the statistics
 #and solving each of them with markov chains. Receives 2 team
 #names and the data. Returns a list with the name of the winner and the
@@ -58,21 +104,21 @@ def playMatch(teamA, teamB,data):
     #Here we have the values of each stat in game according
     #to our own model of probabilities. 
     value_ingame={
-        "winrate": 30,
+        "winrate": 25,
         "firstblood": 15,
-        "firsttower": 5,
-        "1dragon": 5,
-        "2dragon": 10,
-        "3dragon": 20,
-        "4dragon": 30,
-        "elderdragon": 30,
-        "heraldpg": 10,
-        "nashorpg": 25,
-        "top": 5,
+        "firsttower": 7,
+        "1dragon": 3,
+        "2dragon": 5,
+        "3dragon": 10,
+        "4dragon": 20,
+        "elderdragon": 25,
+        "heraldpg": 7,
+        "nashorpg": 22,
+        "top": 3,
         "jg": 5,
-        "mid": 5,
-        "adc": 5,
-        "supp": 5
+        "mid": 4,
+        "adc": 4,
+        "supp": 3
     }
 
     #Here we will sum the stats that each team won
@@ -109,6 +155,12 @@ def playMatch(teamA, teamB,data):
                 teamA_sum+=value_ingame["elderdragon"]
             else:
                 teamB_sum+=value_ingame["elderdragon"]
+        elif stat=="winrate":
+            teamA_cont=0
+            teamB_cont=0
+            add = data[teamA][stat]+data[teamB][stat]
+            teamA_cont+=(data[teamA][stat]/add)*value_ingame[stat]
+            teamB_cont+=(data[teamB][stat]/add)*value_ingame[stat]
         else:
             if markov(data[teamA][stat],data[teamB][stat])==1:
                 teamA_sum+=value_ingame[stat]
@@ -193,9 +245,9 @@ def getWinner(teams,data):
     
 
 
-data = loadData(PATH)
+'''data = loadData(PATH)
 settingBuffs(data)
 data = loadData(WORKING_PATH+"buffed_data.json")
 #Teams that will be received from the user
 teams=["Damwon","DragonX","Gen G","G2 Esports","Top Esports","Fnatic","Suning Gaming","JD Gaming"]
-getWinner(teams,data)
+getWinner(teams,data)'''

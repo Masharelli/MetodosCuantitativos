@@ -43,6 +43,84 @@ def resultado():
    data = backend.loadData(PATH)
    backend.settingBuffs(data)
    data = backend.loadData(WORKING_PATH+"buffed_data.json")
+
+   #Testing data
+
+   #Partida 1 final
+   '''teamA={
+      "name":"Suning Gaming",
+      "firstblood": True,
+      "firsttower": True,
+      "1dragon": True,
+      "2dragon": False,
+      "3dragon": False,
+      "4dragon": False,
+      "elderdragon": False,
+      "heraldpg": False,
+      "nashorpg": False,
+      "top": False,
+      "jg": True,
+      "mid": False,
+      "adc": False,
+      "supp": False
+    }
+
+   teamB={
+      "name":"Damwon",
+      "firstblood": False,
+      "firsttower": False,
+      "1dragon": True,
+      "2dragon": True,
+      "3dragon": True,
+      "4dragon": True,
+      "elderdragon": True,
+      "heraldpg": True,
+      "nashorpg": True,
+      "top": True,
+      "jg": False,
+      "mid": True,
+      "adc": True,
+      "supp": True
+    }'''
+   
+   #Partida 2 final
+   teamA={
+      "name":"Suning Gaming",
+      "firstblood": False,
+      "firsttower": False,
+      "1dragon": True,
+      "2dragon": True,
+      "3dragon": True,
+      "4dragon": True,
+      "elderdragon": False,
+      "heraldpg": False,
+      "nashorpg": True,
+      "top": True,
+      "jg": True,
+      "mid": True,
+      "adc": True,
+      "supp": False
+    }
+
+   teamB={
+      "name":"Damwon",
+      "firstblood": True,
+      "firsttower": True,
+      "1dragon": True,
+      "2dragon": False,
+      "3dragon": False,
+      "4dragon": False,
+      "elderdragon": False,
+      "heraldpg": True,
+      "nashorpg": False,
+      "top": False,
+      "jg": False,
+      "mid": False,
+      "adc": False,
+      "supp": True
+    }
+
+   backend.testMatch(teamA,teamB,data)
    tournament=backend.getWinner(teams,data)
 
    #return render_template('resultado.html',  team1 = team1, team2 = team2, team3 = team3, team4 = team4, team5 = team5, 

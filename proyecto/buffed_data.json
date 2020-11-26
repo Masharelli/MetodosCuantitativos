@@ -198,68 +198,68 @@
         }
     },
     "Fnatic": {
-        "winrate": 58.02,
+        "winrate": 56.24,
         "region": "LEC",
-        "firstblood": 47.53,
-        "firsttower": 48.02,
-        "dragonpg": 55.47,
-        "heraldpg": 40.28,
-        "nashorpg": 53.61,
+        "firstblood": 46.07,
+        "firsttower": 46.55,
+        "dragonpg": 53.77,
+        "heraldpg": 39.05,
+        "nashorpg": 51.97,
         "goldpm": 1833,
-        "towerratio": 2.55,
+        "towerratio": 2.47,
         "members": {
             "Bwipo": {
                 "position": "top",
-                "killparticipation": 61.15
+                "killparticipation": 59.28
             },
             "Selfmade": {
                 "position": "jg",
-                "killparticipation": 68.01
+                "killparticipation": 65.93
             },
             "Nemesis": {
                 "position": "mid",
-                "killparticipation": 54.78
+                "killparticipation": 53.1
             },
             "Rekkles": {
                 "position": "adc",
-                "killparticipation": 70.27
+                "killparticipation": 68.11
             },
             "Hylissang": {
                 "position": "supp",
-                "killparticipation": 62.03
+                "killparticipation": 60.13
             }
         }
     },
     "G2 Esports": {
-        "winrate": 68.11,
+        "winrate": 66.02,
         "region": "LEC",
-        "firstblood": 56.35,
-        "firsttower": 45.08,
-        "dragonpg": 57.13,
-        "heraldpg": 50.76,
-        "nashorpg": 57.43,
+        "firstblood": 54.62,
+        "firsttower": 43.7,
+        "dragonpg": 55.38,
+        "heraldpg": 49.21,
+        "nashorpg": 55.67,
         "goldpm": 1841,
-        "towerratio": 2.94,
+        "towerratio": 2.85,
         "members": {
             "Wunder": {
                 "position": "top",
-                "killparticipation": 55.47
+                "killparticipation": 53.77
             },
             "Jankos": {
                 "position": "jg",
-                "killparticipation": 66.84
+                "killparticipation": 64.79
             },
             "Caps": {
                 "position": "mid",
-                "killparticipation": 64.68
+                "killparticipation": 62.7
             },
             "Perkz": {
                 "position": "adc",
-                "killparticipation": 60.27
+                "killparticipation": 58.42
             },
             "Mikyx": {
                 "position": "supp",
-                "killparticipation": 65.66
+                "killparticipation": 63.65
             }
         }
     },
@@ -429,35 +429,35 @@
         }
     },
     "Rogue": {
-        "winrate": 53.16,
+        "winrate": 51.54,
         "region": "LEC",
-        "firstblood": 51.7,
-        "firsttower": 73.75,
-        "dragonpg": 45.44,
-        "heraldpg": 54.14,
-        "nashorpg": 55.24,
+        "firstblood": 50.11,
+        "firsttower": 71.49,
+        "dragonpg": 44.05,
+        "heraldpg": 52.49,
+        "nashorpg": 53.55,
         "goldpm": 1743,
-        "towerratio": 2.35,
+        "towerratio": 2.28,
         "members": {
             "Finn": {
                 "position": "top",
-                "killparticipation": 58.11
+                "killparticipation": 56.33
             },
             "Inspired": {
                 "position": "jg",
-                "killparticipation": 69.63
+                "killparticipation": 67.5
             },
             "Larssen": {
                 "position": "mid",
-                "killparticipation": 61.37
+                "killparticipation": 59.49
             },
             "Hans sama": {
                 "position": "adc",
-                "killparticipation": 60.34
+                "killparticipation": 58.49
             },
             "Vander": {
                 "position": "supp",
-                "killparticipation": 55.63
+                "killparticipation": 53.93
             }
         }
     },
